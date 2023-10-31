@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import NoteState from './context/noteState';
+import NoteState from './context/NoteState';
+import About from './About';
 
 
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <NoteState>
         <h1>Hi my name is no</h1>
+        <About/>
 
       </NoteState>
       

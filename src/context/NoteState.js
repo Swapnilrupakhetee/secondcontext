@@ -3,16 +3,16 @@ import NoteContext from "./noteContext";
 
 const NoteState=(props) => {
     const state ={
-        name:"swapnil",
-        section:"L1C7"
+        "name":"swapnil",
+        "section":"L1C7"
     }
 
 
 
     return(
-        <NoteContext.provider value={state}>
+        <NoteContext.Provider value={state}>
             {props.children}
-        </NoteContext.provider>
+        </NoteContext.Provider>
     )
     
 }
