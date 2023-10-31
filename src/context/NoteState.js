@@ -8,6 +8,8 @@ const NoteState=(props) => {
     }
     const[state,setState] = useState(s1);
     const update=() => {
+        
+        
 
         setTimeout(() =>{
             setState({
