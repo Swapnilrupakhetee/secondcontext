@@ -5,7 +5,10 @@ import noteContext from './context/noteContext'
 function About() {
     const a=useContext(noteContext)
   return (
-    <div>About {a.name} and my class is {a.section}</div>
+    <>
+    <div>About {a.state.name} and my class is {a.state.section}</div>
+    
+    </>
   )
 }
 
